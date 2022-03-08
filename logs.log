@@ -1,0 +1,61 @@
+2022-03-08 21:44:55,492: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:44:55,568: INFO --> ques1() --> Connection Closed
+2022-03-08 21:44:55,573: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:44:55,587: INFO --> ques2() --> Connection Close
+2022-03-08 21:44:55,592: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 21:44:55,592: INFO --> get_engine() --> Engine successfully created
+2022-03-08 21:44:55,592: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 21:46:52,648: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:46:52,729: INFO --> ques1() --> Connection Closed
+2022-03-08 21:46:52,734: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:46:52,749: INFO --> ques2() --> Connection Close
+2022-03-08 21:46:52,754: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 21:46:52,754: INFO --> get_engine() --> Engine successfully created
+2022-03-08 21:46:52,754: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 21:47:20,472: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:47:20,547: INFO --> ques1() --> Connection Closed
+2022-03-08 21:47:20,552: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:47:20,567: INFO --> ques2() --> Connection Close
+2022-03-08 21:47:20,572: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 21:47:20,572: INFO --> get_engine() --> Engine successfully created
+2022-03-08 21:47:20,572: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 21:49:11,612: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:49:11,688: INFO --> ques1() --> Connection Closed
+2022-03-08 21:49:11,695: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:49:11,711: INFO --> ques2() --> Connection Close
+2022-03-08 21:49:11,715: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 21:49:11,716: INFO --> get_engine() --> Engine successfully created
+2022-03-08 21:49:11,716: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 21:56:34,019: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:56:34,136: INFO --> ques1() --> Connection Closed
+2022-03-08 21:56:34,142: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 21:56:34,167: INFO --> ques2() --> Connection Close
+2022-03-08 21:56:34,175: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 21:56:34,175: INFO --> get_engine() --> Engine successfully created
+2022-03-08 21:56:34,206: INFO --> file_to_query() --> Query Execution Unsuccessful
+2022-03-08 21:56:34,206: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 22:03:06,097: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 22:03:06,169: INFO --> ques1() --> Connection Closed
+2022-03-08 22:03:06,174: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 22:03:06,187: INFO --> ques2() --> Connection Close
+2022-03-08 22:03:06,192: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 22:03:06,192: INFO --> get_engine() --> Engine successfully created
+2022-03-08 22:03:06,201: INFO --> file_to_query() --> Query Execution Unsuccessful
+2022-03-08 22:03:06,201: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 22:04:03,761: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 22:04:03,831: INFO --> ques1() --> Connection Closed
+2022-03-08 22:04:03,835: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 22:04:03,849: INFO --> ques2() --> Connection Close
+2022-03-08 22:04:03,854: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 22:04:03,854: INFO --> get_engine() --> Engine successfully created
+2022-03-08 22:04:03,864: INFO --> file_to_query() --> Query Execution Unsuccessful
+2022-03-08 22:04:03,864: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 22:04:23,179: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 22:04:23,253: INFO --> ques1() --> Connection Closed
+2022-03-08 22:04:23,258: INFO --> start_connection() -->  Database connected successfully
+2022-03-08 22:04:23,272: INFO --> ques2() --> Connection Close
+2022-03-08 22:04:23,276: ERROR --> get_engine() --> Error in engine creation
+2022-03-08 22:04:23,276: INFO --> get_engine() --> Engine successfully created
+2022-03-08 22:04:23,286: INFO --> file_to_query() --> Query Execution Unsuccessful
+2022-03-08 22:04:23,286: INFO --> file_to_query() --> Table Creation Successful.
+2022-03-08 22:04:23,292: INFO --> read_sheets() --> Execution Successful.
