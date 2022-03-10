@@ -12,7 +12,8 @@ class Employee:
     def ques1(self):
         db = Connection.start_connection(self)
         cur = db.cursor()
-        cur.execute("Select empno as EmployeeNumber, ename as EmployeeName,mgr as Manager from emp")
+        cur.execute("SELECT t1.empno as EmployeeNumber, t1.ename as EmployeeName, t2.ename as Manager FROM emp t1, "
+            "emp t2 WHERE t1.mgr=t2.empno;")
         fetch_data = cur.fetchall()
         EMP_Number =[]
         Name=[]
@@ -38,19 +39,21 @@ class Employee:
         # cur.execute("UPDATE jobhist SET enddate=CURRENT_DATE WHERE enddate IS NULL;")
         data = cur.execute(
             "SELECT emp.ename, "
-            "jh.empno, dept.dname, jh.deptno, "
-            "ROUND((jh.enddate-jh.startdate)/30*jh.sal,0) "
-            "AS total_compensation, ROUND((jh.enddate-jh.startdate)/30,0) as months_spent FROM "
-            "jobhist as jh INNER JOIN dept ON jh.deptno=dept.deptno INNER JOIN emp ON jh.empno=emp.empno;")
+            "emp.empno, emp.deptno, dept.dname, "
+            "SUM(ROUND((jh.enddate-jh.startdate)/30*jh.sal,0)) "
+            "AS total_compensation, SUM(ROUND((jh.enddate-jh.startdate)/30,0)) as months_spent FROM "
+            "jobhist as jh INNER JOIN dept ON jh.deptno=dept.deptno INNER JOIN emp ON jh.empno=emp.empno GROUP BY "
+            "emp.empno, emp.ename, dept.dname ;"
+        )
         fetch_data = cur.fetchall()
 
-        Employee_Name, Employee_No, Dept_Name, Dept_Number,Total_Compensation, Months_Spent = ([] for i in range(1,7))
+        Employee_Name, Employee_No, Dept_Number,Dept_Name,Total_Compensation, Months_Spent = ([] for i in range(1,7))
         for data in fetch_data:
             temp_list = list(data)
             Employee_Name.append(temp_list[0])
             Employee_No.append(temp_list[1])
-            Dept_Name.append(temp_list[2])
-            Dept_Number.append(temp_list[3])
+            Dept_Name.append(temp_list[3])
+            Dept_Number.append(temp_list[2])
             Total_Compensation.append(temp_list[4])
             Months_Spent.append(temp_list[5])
         df = pd.DataFrame(

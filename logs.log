@@ -59,3 +59,22 @@
 2022-03-08 22:04:23,286: INFO --> file_to_query() --> Query Execution Unsuccessful
 2022-03-08 22:04:23,286: INFO --> file_to_query() --> Table Creation Successful.
 2022-03-08 22:04:23,292: INFO --> read_sheets() --> Execution Successful.
+2022-03-10 14:21:08,160: ERROR --> start_connection() --> error in connection
+2022-03-10 14:21:08,160: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:26:56,035: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:26:56,696: INFO --> ques1() --> Connection Closed
+2022-03-10 14:29:14,659: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:29:14,788: INFO --> ques1() --> Connection Closed
+2022-03-10 14:40:50,575: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:41:04,371: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:41:19,534: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:45:47,945: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:46:10,234: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:48:09,544: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 14:48:09,674: INFO --> ques2() --> Connection Close
+2022-03-10 14:48:47,447: INFO --> read_sheets() --> Execution Successful.
+2022-03-10 14:56:45,261: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 15:02:54,046: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 15:03:09,928: INFO --> start_connection() -->  Database connected successfully
+2022-03-10 15:03:10,046: INFO --> ques2() --> Connection Close
+2022-03-10 15:03:32,023: INFO --> read_sheets() --> Execution Successful.
